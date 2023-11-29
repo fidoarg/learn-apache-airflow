@@ -1,0 +1,17 @@
+version: 1
+formatters:
+  custom_formatter:
+    format: '[{asctime}] [{levelname:^7}] [{process}] - {funcName} - {message}'
+    datefmt: '%Y-%m-%d %H:%M:%S %z'
+    style: '{'
+handlers:
+  custom_console_handler:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: custom_formatter
+    stream: ext://sys.stdout
+loggers:
+  customLogger:
+    level: DEBUG
+    handlers: [custom_console_handler]
+    propagate: yes
