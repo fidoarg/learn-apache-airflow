@@ -21,6 +21,7 @@
 - Vista general de los conceptos que involucran un DAG y sus parámetros obligatorios.
 - Repaso de los componentes de la UI de Apache Airflow.
 ### Recursos
+- [Link a Jinja Templates](https://airflow.apache.org/docs/apache-airflow/2.5.1/templates-ref.html)
 ## 2. Entendiendo la programación y ejecución de un DAG
 ### Objetivo
 ### Recursos
